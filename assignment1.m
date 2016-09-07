@@ -22,11 +22,12 @@
 
 % 1. Set the url of the matlab documentation to a variable called helpURL
 
-%helpURL = java.net.URL('https://github.com/greasygoat/matlabClass.git')
+% helpURL = java.net.URL('https://github.com/greasygoat/matlabClass.git')
 
 % 2. What does the command 'clear all' do?
 %
-% Answer: clears all input and output from the command window
+% Answer: 
+% clears all input and output from the command window
 %
 
 
@@ -40,7 +41,7 @@
 
 % 4. What command would you type to see a list of all installed toolboxes?
 
-% ver command
+% ver
 
 % 5. What command would return a list of all of the available functions in 
 % the image processing toolbox? 
@@ -62,24 +63,20 @@ figure
 % 7. Find a function that performs a statistical test you've seen used
 % in a journal article (there are many possible answers to this). 
 
-%
-% Answer: h =ttest(x)
+%Answer: h =ttest(x)
 %
 
 % 8. What are the 2 major types of loops that MATLAB supports? What is the
 % difference between them?
 
-%
 % Answer: for loop repeats a specific number of time and 
-%         while loop repeat when condition is true
-% 
+ %       while loop repeat when condition is true 
 
 
 % 9. What does NaN stand for? Give an example of when you would get NaN as
 % an answer. 
 
-%
-% Answer: not a number  0/0
+%Answer: not a number  0/0
 %
 
 
@@ -128,12 +125,11 @@ S = sum(A)
 
 %%% Enter the code for your program below this line
 
-edit(fullfile(matlabroot,'toolbox','coder','codegendemos','coderdemo_hello_world','hello_world.m'))
-disp ('Hello World')
 
-coderdemo_setup('coderdemo_hello_world');
-type hello_world
-codegen hello_world
+% prompt = 'Hello World';
+% x = input (prompt);
+
+% h = msgbox('');
 
 %%%%% When you have completed everything, type the following two commands
 %%%%% (without comments) into your command window. 
